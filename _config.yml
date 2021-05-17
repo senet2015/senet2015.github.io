@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko"
 title                    : "세넷의 개발노트"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -23,7 +23,7 @@ name                     : "Senet2015"
 description              : "An amazing website."
 url                      : "https://senet2015.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "senet2015/senet2015.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -52,7 +52,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -94,11 +94,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "세넷"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I am an explorer"
+  location         : "Seoul, Korea"
+  email            : "senet@naver.com"
+  github           : "senet2015"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -276,7 +277,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
