@@ -1,13 +1,3 @@
-//<<<<<<< HEAD
-//---
-//# Only the main Sass file needs front matter (the dashes are enough)
-//---
-
-//@charset "utf-8";
-
-//@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-//@import "minimal-mistakes"; // main partials
-
 --- 
 # Only the main Sass file needs front matter (the dashes are enough) 
 --- 
@@ -50,13 +40,3 @@ html {
   font-size: $type-size-5;
   background: #c0ffee;
 }
-=======
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
-@charset "utf-8";
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
->>>>>>> cc29f4af94fb405b8091a6d3b4c9ea3d8d6038c5
